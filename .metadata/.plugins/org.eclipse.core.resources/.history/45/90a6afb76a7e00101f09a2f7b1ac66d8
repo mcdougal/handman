@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NUMAD-mandroid</string>
+	
+	<string name="main_title">Mandroid</string>
+	<string name="team_label">Team Members</string>
+	<string name="sudoku_label">Sudoku</string>
+	<string name="error_label">Create Error</string>
+	
+	<string name="team_title">Mandroid</string>
+	<string name="team_text">
+		\
+		Cedric McDougal - mcdougal.ce@gmail.com
+		Robert Steinbach - steinbach.r@husky.neu.edu
+		Version 1.0
+	</string>
+</resources>

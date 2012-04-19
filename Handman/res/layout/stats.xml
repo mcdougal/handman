@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/chalkboard_bg"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="10dp">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/stats_games_played_view"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@android:color/white"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/stats_games_won_view"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@android:color/white"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/stats_games_lost_view"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="30dp"
+				android:textColor="@android:color/white"
+				android:textSize="25sp" />
+
+
+			<TableLayout
+				android:id="@+id/stats_table"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:stretchColumns="*" />
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<RelativeLayout
+		android:id="@+id/stats_loader"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<ProgressBar
+			style="@android:style/Widget.ProgressBar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="150dp"
+			android:layout_centerInParent="true"
+			android:gravity="bottom|center_horizontal"
+			android:text="@string/stats_loading_msg"
+			android:textColor="@android:color/white"
+			android:textSize="20sp" />
+
+	</RelativeLayout>
+
+
+
+</FrameLayout>

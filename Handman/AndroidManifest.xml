@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="edu.neu.madcourse.numandroid"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk
+		android:minSdkVersion="3" />
+
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name">
+    
+    
+    
+    <!--===============================
+     !
+     !  MAIN
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+    
+    
+    
+    <!--===============================
+     !
+     !  GAME
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".game.ModeChoicePopup"
+			android:label="@string/mode_choice_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+
+		<activity
+			android:name=".game.GameActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+		<activity
+			android:name=".game.GameLostPopup"
+			android:label="@string/game_lost_popup_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+
+		<activity
+			android:name=".game.GameWonPopup"
+			android:label="@string/game_won_popup_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".letter.LetterResultsPopup"
+			android:label="@string/letter_result_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER GAME
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".letter.game.LetterGameActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+		<activity
+			android:name=".letter.game.LetterGameHelpPopup"
+			android:label="@string/letter_game_help_popup_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+
+		<activity
+			android:name=".letter.game.LetterGameBackPopup"
+			android:label="@string/letter_game_back_popup_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER PRACTICE
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".letter.practice.LetterPracticePicker"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+		<activity
+			android:name=".letter.practice.LetterPracticeActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+		<activity
+			android:name=".letter.practice.LetterPracticeHelpPopup"
+			android:label="@string/letter_practice_help_popup_title"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Dialog" />
+    
+    
+    
+    <!--===============================
+     !
+     !  STATS
+     ! 
+     ===============================-->
+
+		<activity
+			android:name=".stats.StatsActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+			
+			
+
+	</application>
+</manifest>

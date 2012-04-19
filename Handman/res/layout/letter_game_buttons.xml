@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button
+		android:id="@+id/letter_game_erase_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:gravity="center"
+		android:text="@string/letter_erase_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+
+	<Button
+		android:id="@+id/letter_game_submit_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:gravity="center"
+		android:text="@string/letter_game_submit_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+
+	<Button
+		android:id="@+id/letter_game_continue_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="90dp"
+		android:gravity="center"
+		android:text="@string/letter_continue_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+
+</RelativeLayout>

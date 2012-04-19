@@ -1,0 +1,50 @@
+package edu.neu.madcourse.numandroid.boggle;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.Paint.FontMetrics;
+import android.graphics.Paint.Style;
+import android.view.View;
+import edu.neu.madcourse.numandroid.R;
+
+public class BoggleGridView extends View {
+
+	private static final String TAG = "Boggle";
+
+	private float width; // width of one tile
+	private float height; // height of one tile
+
+	public BoggleGridView(Context context) {
+		super(context);
+		setFocusable(true);
+		setFocusableInTouchMode(true);
+	}
+
+	@Override
+	protected void onDraw(Canvas canvas) {
+		// Draw the background...
+		Paint background = new Paint();
+		background.setColor(getResources().getColor(R.color.puzzle_background));
+		canvas.drawRect(0, 0, getWidth(), getHeight(), background);
+
+		// Draw the board...
+
+		// Define colors for the grid lines
+		Paint dark = new Paint();
+		dark.setColor(getResources().getColor(R.color.puzzle_dark));
+
+		Paint hilite = new Paint();
+		hilite.setColor(getResources().getColor(R.color.puzzle_hilite));
+
+		Paint light = new Paint();
+		light.setColor(getResources().getColor(R.color.puzzle_light));
+
+		canvas.drawLine(5, 5, 55, 5, light);
+		canvas.drawLine(5, 5, 5, 55, hilite);
+		canvas.drawLine(5, 55, 55, 55, light);
+		canvas.drawLine(55, 5, 55, 55, hilite);
+	}
+
+}

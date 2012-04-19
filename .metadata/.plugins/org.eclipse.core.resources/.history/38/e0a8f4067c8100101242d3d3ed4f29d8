@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="edu.neu.madcourse.numandroid"
+	android:versionCode="2"
+	android:versionName="1.1">
+
+	<uses-sdk
+		android:minSdkVersion="3"
+		android:targetSdkVersion="8" />
+	<uses-permission
+		android:name="android.permission.READ_PHONE_STATE" />
+
+	<application
+		android:icon="@drawable/mandroid"
+		android:label="@string/app_name">
+
+		<!-- 
+		 ! Main menu activities
+		-->
+
+		<activity
+			android:name=".Title"
+			android:label="@string/team_name">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".TeamInfo"
+			android:label="@string/team_name"
+			android:theme="@android:style/Theme.Dialog" />
+
+		<!-- 
+		 ! Sudoku game activities
+		-->
+
+		<activity
+			android:name=".sudoku.Sudoku"
+			android:label="@string/sudoku_main_title" />
+		<activity
+			android:name=".sudoku.About"
+			android:label="@string/sudoku_about_title"
+			android:theme="@android:style/Theme.Dialog" />
+		<activity
+			android:name=".sudoku.Prefs"
+			android:label="@string/sudoku_settings_title" />
+		<activity
+			android:name=".sudoku.Game"
+			android:label="@string/sudoku_game_title" />
+
+		<!-- 
+		 ! Boggle game activities
+		-->
+
+		<activity
+			android:name=".boggle.Boggle"
+			android:label="@string/boggle_label" />
+			
+	</application>
+</manifest>

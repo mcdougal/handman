@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="20dp"
+	android:orientation="vertical">
+	
+	<Button
+		android:id="@+id/mode_choice_upper_btn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="25dp"
+		android:padding="15dp"
+		android:gravity="center"
+		android:text="@string/mode_choice_upper_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+	
+	<Button
+		android:id="@+id/mode_choice_lower_btn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="15dp"
+		android:gravity="center"
+		android:text="@string/mode_choice_lower_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+		
+</LinearLayout>

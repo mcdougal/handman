@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/letter_game_show_letter_root"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView
+		android:id="@+id/letter_game_show_letter_msg"
+		android:background="#99ffffff"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top"
+		android:gravity="center_horizontal"
+		android:padding="15dp"
+		android:textColor="@android:color/black"
+		android:textSize="25sp" />
+		
+	<Button
+		android:id="@+id/letter_game_show_letter_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="80dp"
+		android:text="@string/letter_game_show_letter_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="40sp" />
+
+</FrameLayout>

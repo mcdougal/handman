@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip"
+	android:orientation="vertical">
+	
+	<TextView
+		android:id="@+id/letter_practice_help_popup_msg_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingBottom="35dp"
+		android:text="@string/letter_practice_help_popup_msg"
+		android:textSize="20sp" />
+		
+	<Button
+		android:id="@+id/letter_practice_help_popup_ok_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:paddingLeft="25dp"
+		android:paddingRight="25dp"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:gravity="center"
+		android:text="@string/letter_practice_help_popup_ok_btn_lbl"
+		android:textColor="@android:color/black"
+		android:textSize="30sp" />
+		
+</LinearLayout>

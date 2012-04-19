@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NUMAD-mandroid</string>
+
+	<!-- 
+	 ! Main menu strings
+	-->
+	
+	<string name="team_label">Team Members</string>
+	<string name="error_label">Create Error</string>
+	<string name="sudoku_label">Sudoku</string>
+	<string name="quit_label">Quit</string>
+
+	<string name="team_title">Mandroid</string>
+	<string name="team_text">
+		\
+		Cedric McDougal - mcdougal.ce@gmail.com\n
+		Robert Steinbach - steinbach.r@husky.neu.edu\n
+		Version %1$s\n
+		Phone Id: %2$s
+	</string>
+
+	<!-- 
+	 ! Sudoku game strings
+	-->
+	
+	<string name="sudoku_main_title">Android Sudoku</string>
+	<string name="sudoku_continue_label">Continue</string>
+	<string name="sudoku_new_game_label">New Game</string>
+	<string name="sudoku_about_label">About</string>
+	<string name="sudoku_exit_label">Exit</string>
+
+	<string name="settings_label">Settings...</string>
+	<string name="settings_title">Sudoku settings</string>
+	<string name="settings_shortcut">s</string>
+	<string name="music_title">Music</string>
+	<string name="music_summary">Play background music</string>
+	<string name="hints_title">Hints</string>
+	<string name="hints_summary">Show hints during play</string>
+
+	<string name="new_game_title">Difficulty</string>
+	<string name="easy_label">Easy</string>
+	<string name="medium_label">Medium</string>
+	<string name="hard_label">Hard</string>
+
+	<string name="game_title">Game</string>
+	<string name="no_moves_label">No moves</string>
+	<string name="keypad_title">Keypad</string>
+
+	<string name="about_title">About Android Sudoku</string>
+	<string name="about_text">
+		\
+		Sudoku is a logic-based number placement puzzle.
+		Starting with a partially completed 9x9 grid, the
+		objective is to fill the grid so that each
+		row, each column, and each of the 3x3 boxes
+		(also called
+		<i>blocks</i>
+		) contains the digits
+		1 to 9 exactly once.
+	</string>
+</resources>

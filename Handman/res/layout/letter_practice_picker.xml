@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:background="@color/chalkboard_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:gravity="center"
+		android:text="@string/letter_practice_picker_header"
+		android:textColor="@android:color/white"
+		android:textSize="30sp" />
+
+	<GridView
+		android:id="@+id/letter_practice_picker_alphabet_grid"
+		android:background="@android:color/white"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:padding="10dp"
+		android:columnWidth="55dp"
+		android:numColumns="auto_fit"
+		android:verticalSpacing="5dp"
+		android:horizontalSpacing="5dp"
+		android:stretchMode="columnWidth"
+		android:gravity="center" />
+
+	<LinearLayout
+		android:background="@color/chalkboard_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/letter_practice_picker_case_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textColor="@android:color/black"
+			android:textSize="25sp" />
+
+	</LinearLayout>
+
+</LinearLayout>

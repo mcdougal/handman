@@ -1,0 +1,62 @@
+1308452057602	Rename type 'DensityUtils'
+1308476056374	Move file
+1308476063828	Delete element
+1308476538672	Delete element
+1308476547771	Delete element
+1308477740333	Rename type 'ModePopup'
+1308486732835	Move compilation unit
+1308486744032	Move compilation unit
+1308486756349	Move compilation unit
+1308486807769	Move compilation unit
+1308486850801	Move compilation unit
+1308486865591	Move compilation unit
+1308486885146	Move compilation unit
+1308486901835	Rename type 'LetterInput'
+1308486911596	Rename type 'Game'
+1308486929517	Rename type 'LetterInputHelpPopup'
+1308486940373	Rename type 'LetterInputResultsPopup'
+1308486950815	Move compilation unit
+1308486962434	Move compilation units
+1308486970445	Delete element
+1308486984805	Rename type 'Main'
+1308496258566	Rename resource 'letter_input_help_popup.xml'
+1308496268291	Rename resource 'letter_input_results_popup.xml'
+1308496293447	Delete element
+1308496303091	Delete element
+1308497149288	Rename field 'INTENT_KEY_MODE'
+1308497156696	Rename field 'INTENT_KEY_NEW_GAME'
+1308509435692	Copy file
+1308519612131	Copy compilation unit
+1308519619290	Rename type 'LetterGameHelpPopup'
+1308519639224	Copy file
+1308583058557	Rename resource 'game_lost_popup.xml'
+1308583155481	Rename resource 'game_over_popup.xml'
+1308583168726	Copy file
+1308583184350	Copy compilation unit
+1308589471854	Rename resource 'boggle_menu.xml'
+1308590008721	Copy file
+1308590154206	Delete element
+1308590162995	Rename resource 'letter_game_menu.xml'
+1308601570627	Copy file
+1308612110882	Delete element
+1308669802160	Delete element
+1308669809594	Delete element
+1308698801730	Copy compilation units
+1308698812933	Copy packages
+1308698839387	Copy folder
+1308699360509	Rename type 'HangmanUtils'
+1308704382526	Copy file
+1308704392526	Rename resource 'letter_menu.xml'
+1308753463207	Move compilation unit
+1308753479474	Move compilation unit
+1308753486674	Delete element
+1308797932565	Copy files
+1308797957179	Copy files
+1308797986563	Copy files
+1308798098001	Copy folder
+1308798131394	Copy compilation units
+1308798140907	Copy compilation units
+1308798146760	Copy compilation units
+1308798152346	Copy compilation units
+1308798157680	Copy compilation units
+1308798161982	Copy compilation units

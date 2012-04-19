@@ -1,0 +1,125 @@
+1307839972961	Delete element
+1307840024454	Delete element
+1307841473990	Move file
+1307841481123	Delete element
+1307846532771	Rename resource 'header_page.xml'
+1307848392763	Rename resource 'headerpage.xml'
+1307848440357	Rename resource 'headerpage_gradient.xml'
+1307848464524	Delete element
+1307851048708	Rename type 'Header'
+1307857259410	Rename resource 'general_list_item.xml'
+1307857977257	Rename type 'AllGroupsList'
+1307857986726	Rename type 'MyGroupsList'
+1307858014445	Rename type 'GroupHeaderView'
+1307858103195	Rename resource 'allgroupslist.xml'
+1307858274317	Delete element
+1307858290423	Delete element
+1307858302428	Delete element
+1307858396821	Rename resource 'message_board_list_item.xml'
+1307860896380	Delete elements
+1307861499313	Delete element
+1307861507044	Delete element
+1307861641100	Delete element
+1307861689699	Delete elements
+1307863871723	Rename type 'ServerManager'
+1307866011792	Delete element
+1307868110269	Rename type 'ConnectivityUtil'
+1307868115625	Rename type 'HeaderUtil'
+1307869114874	Rename resource 'list_loader.xml'
+1307869179536	Rename resource 'warning_message.xml'
+1307880704463	Rename type 'Thread'
+1307883449693	Delete element
+1307884890610	Delete element
+1307885719458	Delete element
+1307892189411	Delete element
+1307901517154	Move file
+1307901576914	Copy file
+1307901838657	Copy file
+1307901853215	Rename resource 'messageboard_tab_bg_selected'
+1307901884613	Copy file
+1307904163625	Rename field 'type'
+1307904167139	Rename field 'group'
+1307904173761	Rename local variable 'boardId'
+1307904206372	Rename field 'type'
+1307904209725	Rename field 'group'
+1307904218165	Rename local variable 'boardId'
+1307908975673	Delete element
+1307910108359	Rename compilation unit 'PostGroup.java'
+1307910149576	Rename compilation unit 'MessageBoardNewPostGroup.java'
+1307914087020	Delete element
+1307917235210	Rename local variable 'threads'
+1307917247471	Rename local variable 'thread'
+1307917299997	Rename local variable 'threads'
+1307918212333	Rename local variable 'pg'
+1307918248619	Rename resource 'messageboard_new_postgroup.xml'
+1307920607966	Rename method 'getGroupsFromPrimaryKeysString'
+1307923936731	Rename method 'getUsersFromPrimaryKeysString'
+1307923947165	Rename method 'getPostsFromPrimaryKeysString'
+1307923958331	Rename method 'getThreadsFromPrimaryKeysString'
+1307981013955	Rename field 'SAVE_RESULT_INVALID_CHAR'
+1307984673151	Rename method 'getParts'
+1307985947127	Rename method 'getPrimaryKeysString'
+1307985963588	Rename method 'getFromPrimaryKeysString'
+1307987154035	Rename method 'getParts'
+1307987178456	Rename method 'getPrimaryKeysString'
+1307987191343	Rename method 'getFromPrimaryKeysString'
+1307987758274	Rename method 'getParts'
+1307988256968	Rename method 'getParts'
+1308001677396	Copy file
+1308001688873	Rename resource 'general_rounded_rect.xml'
+1308006564769	Rename type 'UserUsernameEntryPopup'
+1308006793846	Copy compilation unit
+1308006802329	Rename resource 'user_username_entry_popup.xml'
+1308006813848	Copy file
+1308008746980	Move member 'getTypeStringFromTypeId'
+1308013654278	Delete element
+1308029911397	Delete element
+1308030533676	Copy file
+1308030757743	Copy file
+1308036822045	Copy file
+1308038558874	Copy file
+1308039461476	Delete element
+1308041327608	Delete element
+1308041943074	Delete element
+1308041949775	Delete element
+1308041975778	Copy file
+1308042167317	Rename resource 'main_grouplist_item_selector.xml'
+1308042585188	Delete element
+1308043159912	Rename type 'MainTabView'
+1308043190577	Copy file
+1308043200477	Rename resource 'maintabs.xml'
+1308046804427	Copy file
+1308047023866	Rename resource 'allgroupslist_tab_icon_selected.png'
+1308047030324	Rename resource 'allgroupslist_tab_icon_unselected.png'
+1308047041462	Rename resource 'mygroupslist_tab_icon_selected.png'
+1308047054272	Rename resource 'mygroupslist_tab_icon_unselected.png'
+1308047086504	Copy file
+1308047103002	Copy file
+1308047116836	Rename resource 'main_groupslist_allgroups_tab_icon_selected.png'
+1308047129954	Rename resource 'main_groupslist_allgroups_tab_icon_unselected.png'
+1308047143061	Rename resource 'main_groupslist_bk_tab_icon_selected.png'
+1308047153188	Rename resource 'main_groupslist_bk_tab_icon_unselected.png'
+1308047166673	Rename resource 'main_groupslist_mygroups_tab_icon_selected.png'
+1308047178458	Rename resource 'main_groupslist_mygroups_tab_icon_unselected.png'
+1308047233590	Rename resource 'main_groupslist_tab_icon_selected_all.png'
+1308047242061	Rename resource 'main_groupslist_tab_icon_selected_bk.png'
+1308047253219	Rename resource 'main_groupslist_tab_icon_selected_my.png'
+1308047264846	Rename resource 'main_groupslist_tab_icon_unselected_all.png'
+1308047273030	Rename resource 'main_groupslist_tab_icon_unselected_bk.png'
+1308047282897	Rename resource 'main_groupslist_tab_icon_unselected_my.png'
+1308047352212	Rename resource 'mygroupslist_tab_icon.xml'
+1308047370795	Rename resource 'allgroupslist_tab_icon.xml'
+1308047383583	Copy file
+1308047460061	Delete elements
+1308047482451	Delete elements
+1308047648156	Delete element
+1308048909964	Delete element
+1308048996076	Delete element
+1308049003956	Delete element
+1308052535196	Delete element
+1308052617281	Delete element
+1308060625082	Copy file
+1308060648790	Rename resource 'main_custom_tab_bg_selector'
+1308063952585	Delete element
+1308091021332	Copy file
+1308422160798	Copy file

@@ -1,0 +1,13 @@
+package edu.neu.madcourse.mandroid;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class TeamInfo extends Activity {
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.team_info);
+	}
+}

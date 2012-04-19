@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Handman</string>
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  MAIN
+     ! 
+     ===============================-->
+    
+    <!--........................................................................  title letters -->
+    
+    <string name="title_letter_1">H</string>
+    <string name="title_letter_2">A</string>
+    <string name="title_letter_3">N</string>
+    <string name="title_letter_4">D</string>
+    <string name="title_letter_5">M</string>
+    <string name="title_letter_6">A</string>
+    <string name="title_letter_7">N</string>
+    
+    <!--........................................................................  buttons -->
+    
+    <string name="main_new_game_btn_lbl">New Game</string>
+    <string name="main_continue_btn_lbl">Continue</string>
+    <string name="main_practice_btn_lbl">Practice</string>
+    <string name="main_stats_btn_lbl">Stats</string>
+    
+    <!--........................................................................ mode choice popup -->
+    
+    <string name="mode_choice_title">Select a mode</string>
+    <string name="mode_choice_upper_btn_lbl">UPPERCASE</string>
+    <string name="mode_choice_lower_btn_lbl">lowercase</string>
+    
+    
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  GAME
+     ! 
+     ===============================-->
+     
+    <!--........................................................................ menu -->
+    
+    <string name="game_menu_new_game">New Game</string>
+    
+    <!--........................................................................ loading word screen -->
+    
+    <string name="game_loading_word_txt">Picking a word...</string>
+    
+    <!--........................................................................ game screen -->
+    
+    <string name="game_guess_letter_btn_lbl">Guess a letter</string>
+    
+    <!--........................................................................ correct guess toast -->
+    
+    <string name="game_guessed_right_txt">Nice job! You got %1$s!</string>
+    <string name="game_guessed_right_txt_singular">a letter</string>
+    <string name="game_guessed_right_txt_plural">%1$s letters</string>
+	
+	<!--........................................................................ game lost -->
+    
+    <string name="game_lost_popup_title">You Lost!</string>
+    
+    <string name="game_lost_msg">\
+Oh no! You\'re out of guesses. It was a valiant effort though. The word you were
+trying to guess was
+    </string>
+    
+    <!--........................................................................ game won -->
+    
+    <string name="game_won_popup_title">You Won!</string>
+    
+    <string name="game_won_msg">\
+Congratulations! You guessed the word.
+    </string>
+    
+    <!--........................................................................ game over -->
+    
+    <string name="game_over_play_again_btn_lbl">Play Again</string>
+    <string name="game_over_menu_btn_lbl">Back to Menu</string>
+    
+    
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER
+     ! 
+     ===============================-->
+    
+    <!--........................................................................ buttons -->
+    
+    <string name="letter_erase_btn_lbl">Erase</string>
+    <string name="letter_continue_btn_lbl">Continue</string>
+    
+    <!--........................................................................ accuracy calculation -->
+    
+    <string name="letter_calc_msg">Calculating accuracy...</string>
+    
+    <string name="letter_wait_for_calc_msg">\
+Please wait for the calculation to finish
+    </string>
+    
+    <!--........................................................................ results -->
+    
+    <string name="letter_result_title">Results</string>
+    
+    <string name="letter_result_accuracy_lbl">Your accuracy was</string>
+    
+    <string name="letter_result_ok_btn_lbl">OK</string>
+    
+    
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER GAME
+     ! 
+     ===============================-->
+     
+    <!--........................................................................ menu -->
+    
+    <string name="letter_game_menu_main_lbl">Main Menu</string>
+    
+    <string name="letter_game_menu_help_lbl">I\'m confused</string>
+     
+    <!--........................................................................ help popup -->
+    
+    <string name="letter_game_help_popup_title">Instructions</string>
+    
+    <string name="letter_game_help_popup_msg">\
+When you\'re ready, press \"Show Letter\" to make the letter appear on the screen.
+But watch carefully! You\'ll only see the letter for a few seconds, and after
+it disappears you\'ll have to draw it!
+    </string>
+    
+    <string name="letter_game_help_popup_ok_btn_lbl">OK</string>
+     
+    <!--........................................................................ back popup -->
+	
+    <string name="letter_game_back_popup_title">Warning!</string>
+    
+    <string name="letter_game_back_msg">\
+If you go back now you\'ll get an accuracy of 0% for this letter and a new
+body part will be added to the hangman. But if you keep going you might be able
+to stop that from happening!
+    </string>
+    
+    <string name="letter_game_back_abort_btn_lbl">Go back</string>
+    <string name="letter_game_back_continue_btn_lbl">Keep going!</string>
+    
+    <!--........................................................................ show letter -->
+    
+	<string name="letter_game_show_letter_msg">\
+Oh no! There is no \'%1$s\' in the word. But if you can draw one with
+at least %2$s%% accuracy then your guess doesn\'t count!
+	</string>
+	
+    <string name="letter_game_show_letter_btn_lbl">Show Letter</string>
+    
+    <!--........................................................................ draw letter -->
+    
+    
+    <string name="letter_game_draw_instructions">\
+Now it\'s time to draw the letter!
+    </string>
+    
+    <string name="letter_game_submit_btn_lbl">Submit</string>
+    
+    <!--........................................................................ result msg -->
+    
+    <string name="letter_game_result_great_feedback">\
+Amazing! No extra limbs for you.
+	</string>	
+    <string name="letter_game_result_good_feedback">\
+You did it! You prevented a body part from being added to the hangman.
+	</string>	
+    <string name="letter_game_result_good_exact_feedback">\
+You just made it! You won\'t be penalized for your guess.
+	</string>
+    <string name="letter_game_result_bad_close_feedback">\
+So close! But you still get a limb.
+	</string>
+    <string name="letter_game_result_bad_far_feedback">\
+Nice try! I\'m sure the hangman doesn\'t mind getting an extra body part.
+	</string>
+    <string name="letter_game_result_terrible_feedback">\
+Keep trying! The hangman is rooting for you!
+	</string>
+    <string name="letter_game_result_0_feedback">\
+Come on! You should at least try.
+	</string>
+    
+    <!--........................................................................ submitted -->
+    
+    <string name="letter_game_practice_btn_lbl">Practice</string>
+    
+    
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  LETTER PRACTICE
+     ! 
+     ===============================-->
+     
+    <!--........................................................................ menu -->
+    
+    <string name="letter_practice_menu_help_lbl">I\'m confused</string>
+    
+    <!--........................................................................ picker -->
+     
+    <string name="letter_practice_picker_header">Pick a letter to practice</string>
+    <string name="letter_practice_upper_btn_lbl">UPPERCASE</string>
+    <string name="letter_practice_lower_btn_lbl">lowercase</string>
+    
+    <!--........................................................................ help popup -->
+    
+    <string name="letter_practice_help_popup_title">Practice Mode</string>
+    
+    <string name="letter_practice_help_popup_msg">\
+Having trouble with a certain letter? Here you can practice it as much as you
+want. Try tracing the letter a couple times, then switching to "Free Hand" mode and
+drawing it without a guide. Good luck!
+    </string>
+    
+    <string name="letter_practice_help_popup_ok_btn_lbl">OK</string>
+    
+    <!--........................................................................ buttons -->
+    
+    <string name="letter_practice_check_accuracy_btn_lbl">Check Accuracy</string>
+    <string name="letter_practice_free_draw_btn_lbl">Free Hand</string>
+    <string name="letter_practice_trace_btn_lbl">Trace Mode</string>
+    
+    
+    
+    
+    
+    
+    <!--===============================
+     !
+     !  STATS
+     ! 
+     ===============================-->
+    
+    <!--........................................................................ loader -->
+     
+     <string name="stats_loading_msg">Loading stats...</string>
+    
+    <!--........................................................................ stats page -->
+     
+     <string name="stats_games_played">Games completed: %1$s</string>
+     <string name="stats_games_won">Games won:  %1$s</string>
+     <string name="stats_games_lost">Games lost:  %1$s</string>
+     
+     <string name="stats_avg_header">Average</string>
+     <string name="stats_high_header">High</string>
+     <string name="stats_low_header">Low</string>
+     
+     
+     
+     
+     
+    
+</resources>

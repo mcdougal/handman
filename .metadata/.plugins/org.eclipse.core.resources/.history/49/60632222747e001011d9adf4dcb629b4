@@ -1,0 +1,56 @@
+package edu.neu.madcourse.mandroid;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.telephony.TelephonyManager;
+import android.util.Log;
+import android.widget.Toast;
+
+public class AuthorizationChecker {
+	private static final String TAG = "AuthorizationChecker";
+
+	Leave these IDs so the app works on Stephen's lab phones
+	Add the IDs for your own phone(s)
+	private static final String[] someIDs = { 
+			"000000000000000", Emulator
+			"A0000022B98A36", Mobile Health Lab Droid X
+			"A0000022BDBD34", Mobile Health Lab Droid X
+			"358512032560155", Mobile Health Lab Aria
+			"354957031620522", Mobile Health Lab Nexus One
+			"A1000017881446", Mobile Health Lab Verizon Incredible
+			"351801040062404", Mobile Health Lab Galaxy S
+			"351801040057388", Mobile Health Lab Galaxy S 
+			"A00000229967AC", Mobile Health Lab Droid X
+			"351801040057396", Mobile Health Lab Samsung Galaxy S
+	};
+
+	private static boolean IsAuthorized(Context aContext) {
+		String myID = GetID(aContext);
+		for (String anID : someIDs) {
+			if (anID.equals(myID))
+				return true;
+		}
+		return false; 
+	}
+
+	private static boolean IsAuthorized(Context aContext, boolean isShowToast) {
+		try {
+			if (IsAuthorized(aContext)) {
+				if (isShowToast)
+					Toast.makeText(aContext, "Authorized phone", Toast.LENGTH_SHORT).show();
+				return true;
+			} else {
+				Toast.makeText(aContext, "This is a test application not intended for the public. Please uninstall.", Toast.LENGTH_LONG).show();
+				return false;
+			}
+		} catch (Exception e) {
+			Log.e("check", "Not authorized" );
+			return false;
+		}
+	}
+
+	public static void DoAuthorization(Context aContext, Activity anActivity) {
+		DoAuthorization(aContext, anActivity, false);
+	}

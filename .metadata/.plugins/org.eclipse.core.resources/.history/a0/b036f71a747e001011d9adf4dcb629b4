@@ -1,0 +1,5 @@
+package edu.neu.madcourse.mandroid;
+
+public class AuthorizationChecker {
+
+}

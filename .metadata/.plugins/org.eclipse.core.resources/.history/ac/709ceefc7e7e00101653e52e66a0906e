@@ -1,0 +1,36 @@
+package edu.neu.madcourse.numandroid;
+
+import android.app.Activity;
+import android.content.res.Resources;
+import android.content.res.XmlResourceParser;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+public class TeamInfo extends Activity {
+	
+    /**
+     * Called when the activity is first created.
+     */
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		Resources res = getResources();
+		String text = String.format(
+		    res.getString(R.string.team_text),
+		    AuthorizationChecker.GetID(getApplicationContext()));
+		
+		try {
+			TextView team_text = findViewById(R.id.team_content);
+			
+			team_text.set
+			
+			XmlResourceParser layout = res.getLayout(R.layout.team_info);
+			layout.setProperty("text", text);
+		}
+		catch(Exception e) {}
+		
+		setContentView(R.layout.team_info);
+	}
+}

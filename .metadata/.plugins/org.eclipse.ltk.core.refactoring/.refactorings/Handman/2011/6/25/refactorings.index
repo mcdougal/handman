@@ -1,0 +1,18 @@
+1308250898673	Delete element
+1308263399501	Delete element
+1308263473609	Rename resource 'drawing_surface.xml'
+1308277556004	Rename field 'currentXList'
+1308277560387	Rename field 'currentYList'
+1308292753984	Rename type 'LetterPath'
+1308292785012	Rename field 'guidelinesRect'
+1308292825352	Rename field 'userPaint'
+1308354243136	Rename field 'accuracyResult'
+1308354726899	Rename method 'getAccuracy'
+1308365341540	Rename type 'LetterInputPopup'
+1308365363656	Rename type 'LetterInputInstructionsPopup'
+1308365370268	Rename resource 'letter_input_popup.xml'
+1308418859412	Move file
+1308419040299	Copy file
+1308424768503	Delete elements
+1308424794134	Delete element
+1308440608292	Rename type 'AlphabetSelector'

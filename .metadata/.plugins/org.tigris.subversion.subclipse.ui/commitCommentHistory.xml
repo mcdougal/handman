@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>ughhh</CommitComment>
+	<CommitComment>Missed files on my last commit</CommitComment>
+	<CommitComment>Made about screen show on first time playing</CommitComment>
+	<CommitComment>Added buffer of 1 mile when storing locations so location innacuracies do not get stored.</CommitComment>
+	<CommitComment>i don&apos;t even know what i did, but it didn&apos;t work</CommitComment>
+	<CommitComment>save state even when back-button pressed</CommitComment>
+	<CommitComment>- Added Boggle game that locks when you&apos;ve been sedentary too long
+- changed time label in location tracker to month-day hour-second
+- added deletion of location data when it exceeds a certain number of records</CommitComment>
+	<CommitComment>Converted boggle grid to buttons</CommitComment>
+	<CommitComment>More stuff to boggle grid</CommitComment>
+	<CommitComment>Working on boggle grid</CommitComment>
+</CommitComments>

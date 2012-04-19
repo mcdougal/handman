@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@android:color/white"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:id="@+id/letter_draw_root"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1" />
+
+	<RelativeLayout
+		android:id="@+id/letter_footer"
+		android:layout_width="fill_parent"
+		android:layout_height="70dp"
+		android:padding="2dp">
+
+		<LinearLayout
+			android:id="@+id/letter_calc_view"
+			android:background="@android:color/white"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:orientation="horizontal">
+
+			<ProgressBar
+				style="@android:style/Widget.ProgressBar.Small.Inverse"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginRight="20dp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/letter_calc_msg"
+				android:textColor="@android:color/black"
+				android:textSize="20sp" />
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>

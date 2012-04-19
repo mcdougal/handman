@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left|top"
+		android:gravity="center"
+		android:padding="3dp"
+		android:text="@string/game_lost_msg"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/game_lost_word_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:paddingTop="15dp"
+		android:paddingBottom="40dp"
+		android:textSize="45sp"
+		android:textColor="#ffffffff" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/game_lost_menu_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal|bottom"
+			android:gravity="center"
+			android:text="@string/game_over_menu_btn_lbl"
+			android:textColor="@android:color/black"
+			android:textSize="25sp" />
+
+		<Button
+			android:id="@+id/game_lost_play_again_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal|bottom"
+			android:gravity="center"
+			android:text="@string/game_over_play_again_btn_lbl"
+			android:textColor="@android:color/black"
+			android:textSize="25sp" />
+
+	</LinearLayout>
+
+</LinearLayout>

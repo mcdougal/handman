@@ -1,0 +1,33 @@
+package edu.neu.madcourse.numandroid;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class TeamInfo extends Activity {
+	
+    /**
+     * Called when the activity is first created.
+     */
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.team_info);
+		
+		// get the application version and phone id
+		Context aContext = getApplicationContext();
+		String appVersion = AuthorizationChecker.GetVersionName(aContext);
+		String phoneId = AuthorizationChecker.GetID(aContext);
+		
+		// get the text used in the team info view
+		Resources res = getResources();
+		String teamInfoText = res.getString(R.string.team_text);
+		
+		// inject the dynamically loaded data into the team info text view
+		String text = String.format(teamInfoText, appVersion, phoneId);
+		TextView team_text = (TextView) findViewById(R.id.team_content);
+		team_text.setText(text);
+	}
+}

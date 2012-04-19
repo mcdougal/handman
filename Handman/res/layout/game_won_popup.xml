@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left|top"
+		android:gravity="center"
+		android:paddingLeft="3dp"
+		android:paddingRight="3dp"
+		android:paddingTop="3dp"
+		android:paddingBottom="40dp"
+		android:text="@string/game_won_msg"
+		android:textSize="35sp" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/game_won_menu_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal|bottom"
+			android:gravity="center"
+			android:text="@string/game_over_menu_btn_lbl"
+			android:textColor="@android:color/black"
+			android:textSize="25sp" />
+
+		<Button
+			android:id="@+id/game_won_play_again_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal|bottom"
+			android:gravity="center"
+			android:text="@string/game_over_play_again_btn_lbl"
+			android:textColor="@android:color/black"
+			android:textSize="25sp" />
+
+	</LinearLayout>
+
+</LinearLayout>

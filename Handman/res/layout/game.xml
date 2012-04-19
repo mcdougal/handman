@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/chalkboard_bg"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/game_letter_container"
+			android:layout_width="fill_parent"
+			android:layout_height="60dp"
+			android:layout_gravity="top"
+			android:gravity="center"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:orientation="horizontal" />
+
+		<TextView
+			android:id="@+id/game_attempted_view"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:paddingTop="15dp"
+			android:paddingLeft="10dp"
+			android:textColor="@android:color/white"
+			android:textSize="28sp" />
+
+
+		<FrameLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical">
+
+				<View
+					android:id="@+id/game_gallows_image"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:layout_margin="10dp" />
+
+				<Button
+					android:id="@+id/game_guess_letter_btn"
+					android:layout_width="wrap_content"
+					android:layout_height="55dp"
+					android:layout_gravity="center"
+					android:layout_marginTop="15dp"
+					android:gravity="center"
+					android:text="@string/game_guess_letter_btn_lbl"
+					android:textColor="@android:color/black"
+					android:textSize="25sp"
+					android:includeFontPadding="false" />
+
+			</LinearLayout>
+
+			<GridView
+				android:id="@+id/game_alphabet_grid"
+				android:background="@android:color/white"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_gravity="bottom"
+				android:padding="10dp"
+				android:columnWidth="55dp"
+				android:numColumns="auto_fit"
+				android:verticalSpacing="5dp"
+				android:horizontalSpacing="5dp"
+				android:stretchMode="columnWidth"
+				android:gravity="center" />
+
+		</FrameLayout>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:id="@+id/game_loader"
+		android:background="@color/chalkboard_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<ProgressBar
+			style="@android:style/Widget.ProgressBar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="150dp"
+			android:layout_centerInParent="true"
+			android:gravity="bottom|center_horizontal"
+			android:text="@string/game_loading_word_txt"
+			android:textColor="@android:color/white"
+			android:textSize="20sp" />
+
+	</RelativeLayout>
+
+</RelativeLayout>
